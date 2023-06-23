@@ -1,1 +1,3 @@
-openai==0.31.0
+Flask
+gitpython
+openai
