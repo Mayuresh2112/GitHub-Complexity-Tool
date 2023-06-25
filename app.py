@@ -83,5 +83,5 @@ def perform_gpt_analysis(repository):
     return "The selected repository demonstrates a high level of technical complexity with intricate algorithm design and extensive use of advanced data structures."
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False,host='0.0.0.0')
 
